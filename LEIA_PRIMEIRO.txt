@@ -1,0 +1,19 @@
+VITRIO — ETAPA 2: LOJA + PAINEL MASTER
+
+1. No GitHub, crie um repositório público chamado vitrio.
+2. Envie os arquivos DE DENTRO desta pasta/ZIP para a raiz do repositório (index.html, admin.html, store.js, admin.js, style.css, config.js).
+3. Vá em Settings > Pages > Build and deployment > Deploy from a branch.
+4. Escolha main e / (root), salve e aguarde a publicação.
+5. Loja: https://SEU-USUARIO.github.io/vitrio/
+6. Master: https://SEU-USUARIO.github.io/vitrio/admin.html
+7. Entre com o usuário cadastrado em Authentication > Users no Supabase.
+
+IMPORTANTE
+- Não publique senha, token secreto do Asaas, chave service_role nem senha do banco.
+- config.js contém somente URL e chave PÚBLICA do Supabase.
+- Loja em modo demonstração: checkout desativado; não aceita pagamentos ou pedidos reais.
+- Fotos devem ser links HTTPS. Não há upload de imagens nesta etapa.
+- A lista de pedidos fica vazia até a futura integração segura de checkout.
+- Para tornar um produto visível, marque Publicar na vitrine no Painel Master.
+- GitHub Pages não é backend de pagamentos; usaremos Edge Functions para operações sensíveis.
+- Use a conta do Supabase que recebeu permissão Master.
